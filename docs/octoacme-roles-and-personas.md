@@ -75,7 +75,81 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 
 ---
 
-## How these personas are used in the exercise
+## New: Release Manager
+
+### Role Summary
+The Release Manager plans and coordinates release activities to ensure reliable, predictable delivery into production.
+
+### Responsibilities
+- Coordinate release scheduling and stakeholder communication
+- Maintain the release checklist and verify pre-release criteria
+- Coordinate cross-team release readiness (QA results, infra, migrations)
+- Author and publish release notes and deployment communications
+- Plan rollback and mitigation strategies
+
+### Interactions
+- Works closely with PM and QA Lead to validate readiness
+- Notifies stakeholders (support, sales, product, security) of release timing and impact
+- Coordinates with DevOps/Infrastructure for deployment pipelines
+
+---
+
+## New: QA Lead
+
+### Role Summary
+The QA Lead defines QA strategy and ensures the product meets acceptance criteria and quality standards.
+
+### Responsibilities
+- Define test strategy (unit, integration, regression, smoke)
+- Maintain test plans and acceptance criteria coverage
+- Lead test execution for major milestones and releases
+- Triage and prioritize defects with the product and dev teams
+- Coordinate test automation and CI integration
+
+### Interactions
+- Collaborates with Developers to increase test coverage
+- Works with Release Manager to sign off on release readiness
+- Communicates test status to PM and stakeholders
+
+---
+
+## New: UX Designer
+
+### Role Summary
+The UX Designer owns user experience and usability for features and flows.
+
+### Responsibilities
+- Design user flows, wireframes, and mocks
+- Validate usability via research and testing
+- Provide design guidance during planning and implementation
+- Review post-release usability signals and iterate
+
+### Interactions
+- Partners with Product Manager to translate requirements into UX outcomes
+- Works with Developers to ensure designs are implemented faithfully
+- Provides input to QA on usability-focused acceptance criteria
+
+---
+
+## New: Business Analyst (BA)
+
+### Role Summary
+The Business Analyst translates stakeholder needs into clear requirements and acceptance criteria.
+
+### Responsibilities
+- Gather and document business requirements and user stories
+- Clarify acceptance criteria and edge cases
+- Assist PM in prioritization by quantifying impact and dependencies
+- Support QA by validating scenarios against business requirements
+
+### Interactions
+- Works closely with Product Manager and stakeholders to refine scope
+- Collaborates with QA to ensure test coverage aligns with business intent
+- Coordinates with Developers to clarify requirements during implementation
+
+---
+
+## How these personas are used
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
-
+- When assigning work, reference the relevant persona responsibilities to make expectations explicit.
