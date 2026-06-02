@@ -1,0 +1,9 @@
+# OctoAcme — Project Management Overview
+
+OctoAcme runs projects with an iterative, customer-first lifecycle: Initiation, Planning, Execution, Release, and Close & Retrospective. Initiation captures the problem, stakeholders, success metrics, and a lightweight one‑pager; planning turns approved initiatives into a prioritized, estimated backlog with a Definition of Done and a release plan. Execution uses sprint cadence and a project board (Backlog → Ready → In Progress → In Review → QA → Done) to deliver small, testable increments and manage dependencies.
+
+Roles and responsibilities are explicit: every project has a named Project Manager (PM) and Product Lead, supported by Developers, QA, and Stakeholders. Communication follows a regular rhythm — daily standups for immediate coordination, weekly delivery syncs and PM/PdM alignment, demos at sprint/milestone close, and monthly stakeholder updates. Escalation follows a clear path (team → PM → Product Lead → Sponsor) and the docs include templates for weekly status and incident communications to keep stakeholder messages consistent.
+
+Quality assurance combines automation and targeted manual checks. The PR workflow emphasizes small changes, acceptance criteria in PRs, and CI gating (tests, linting, and security scans) before review. Testing layers include unit tests, integration tests, and end‑to‑end smoke tests for critical flows. Releases are categorized (patch/minor/major) and use a deployment checklist with rollback and incident playbooks; retrospectives capture action items and feed continuous improvement back into the project backlog.
+
+These process documents live in docs/ and are intended to be maintained as a single source of truth for project initiation, planning, execution, release, risk management, and retrospectives. Use the repository issue template "Add Content to Project Management Process Docs" to propose changes or add new process artifacts.
